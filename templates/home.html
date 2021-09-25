@@ -1,0 +1,252 @@
+{% include 'base.html' %}
+{% load static %}
+{% include 'navigation.html' %}
+{% block content %}
+<div id="carousel-slider" class="carousel slide" data-ride="carousel">
+	<div class="carousel-inner">
+	    <div class="carousel-item active">
+	        <img src="{% static 'images/55.jpg' %}" class="d-block w-100" alt="">
+	        <div class="carousel-caption text-white">
+	            <div class="background-2">
+	                <h2>Postoperative Care</h2>
+	                <p> Postoperative care is the care you receive after a surgical procedure. The type of postoperative
+	                    care you need depends on the type of surgery you have, as wekk as your health history. It often includes pain management and wound care.
+	                </p>
+	                <button class="btn btn-light"><a href="#departments" class="nav-link">See All Services</a></button>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="carousel-item">
+	        <img src="{% static 'images/10.jpg' %}" class="d-block w-100" alt="...">
+	        <div class="carousel-caption text-white">
+	            <div class="background-1">
+	                <h2>Surgery</h2>
+	                <p>Surgery is a medical speciality that uses operative manual and instrumental techniques on a person
+	                	to investigate or treat a pathological condition such as a disease or injury, to help improve
+	                	bodily function or appearance or to repair unwanted ruptured areas.
+	                </p>
+	                <button class="btn btn-light"><a href="#departments" class="nav-link">See All Services</a></button>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="carousel-item">
+	        <img src="{% static 'images/neo.jpg' %}" class="d-block w-100" alt="...">
+	        <div class="carousel-caption text-white">
+	            <div class="background-1">
+	                <h2>Neonatal intensive care unit</h2>
+	                <p>A neonatal intensive care unit, also known as an intensive care nursery, is an intensive care unit specializing in the care of ill or premature nweborn infants, Neonatal refers to the first 28 days of life. Neonatal care, as known as specialized nurseries or intensive care, has been around since the 1960s.
+	                </p>
+	                <button class="btn btn-light"><a href="#departments" class="nav-link">See All Services</a></button>
+	            </div>  
+	        </div>
+	    </div>
+	</div>
+	<a class="carousel-control-prev" href="#carousel-slider" role="button" data-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hiddden="true"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="carousel-control-next" href="#carousel-slider" role="button" data-slide="next">
+		<span class="carousel-control-next-icon" aria-hiddden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
+</div>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-13">
+			<img src=" ">
+		</div>
+	    <div class="col-md-13" id="intro-text">
+	    	<h1 class="text-center">
+	    		<h2 class="text-center text-primary">Welcome to Hospital Management System</h2>
+	    	</h1>
+	    	<p class="text-justify">
+	    	<h5><i>Hospital management system is a system where you can take any type of services. It is located in Tulsipur Dang. It provides different types of services like radiography,
+	    	 different types sergeons with highly request doctors. This system aims to fulfill all the hospital management requirements from administrative point of view. It will be helpful to build goodwill of patient.</i></h5>
+	        </p>
+	        <img src=" ">
+	    </div>
+	    <div class="col-md-15">
+	    	<div class="container-fluid">
+	    		<br>
+	    		<button class="btn btn-lg btn-block"><a href="#about" class="nav-link"><i
+	    			        class="fa fa-calender-minus-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i>Request Appointments</i></a></button>
+	    	    <br>
+	    		<button class="btn btn-lg btn-block"><a href="#doctors" class="nav-link"><i
+	    			        class="fa fa-user-md"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i>Find Doctors</i></a></button>
+	    		<br>
+	    		<button class="btn btn-lg btn-block"><a href="#about" class="nav-link"><i
+	    			        class="fa fa-map-marker"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i>Location</i></a></button>
+	    		<br>
+	    		<button class="btn btn-lg btn-block"><a href="#about" class="nav-link"><i
+	    			        class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i>Emergency Contact</i></a></button>
+	    	</div>
+	    </div>
+	</div>
+</div>	
+
+
+
+	 
+<div class="container-fluid" id="departments">
+	<div class="row">
+		<div class="col-md-11">
+			<h2 class="text-center text-primary">Departments</h2>
+			<h5 class="text-center"><i>Medical Services</i></h5>
+		</div>
+	</div>
+</div>
+<div class="container-fluid">
+	<div class="row owl-carousel owl_theme">
+    	
+    	<div class="card shadow text-center items" style="height: 250px;">
+    		<div class="card-img">
+    			<img src="{% static 'images/8.jpg' %}"
+    			    style="margin-left: auto;">
+    	    </div>
+    	    <div class="card-body">
+    	    	<p class="card-text">Radiology</p>
+    	    </div>
+    	</div>
+    	<div class="card shadow text-center items" style="height: 250px;">
+    		<div class="card-img">
+    			<img src="{% static 'images/44.jpg' %}" style="margin-left: auto;">
+    	    </div>
+    	    <div class="card-body">
+    	    	<p class="card-text">Orthopedic and Surgery</p>
+    	    </div>
+    	</div>
+    	<div class="card shadow text-center items" style="height: 250px;">
+    		<div class="card-img">
+    			<img src="{% static 'images/45.jpg' %}" style="margin-left: auto;">
+    	    </div>
+    	    <div class="card-body">
+    	    	<p class="card-text">General and Laparoscopic Surgery</p>
+    	    </div>
+    	</div>
+    	<div class="card shadow text-center items" style="height: 250px;">
+    		<div class="card-img">
+    			<img src="{% static 'images/99.jpg' %}" style="margin-left: auto;">
+    	    </div>
+    	    <div class="card-body">
+    	    	<p class="card-text">Physician</p>
+    	    </div>
+    	</div>
+
+
+
+        <div class="container-fluid" id="services">
+	        <div class="row">
+		        <div class="col-md-11 mydivstyle">
+			        <h5 class="text-center"><i>Other Services</i></h5>
+		        </div>
+	        </div>
+       
+            <div class="row owl-carousel owl_theme">
+    	        <div class="card shadow text-center items" style="height: 250px;">
+	                <div class="card-img">
+	        	        <img src="{% static 'images/90.jpg' %}" style="margin-left: auto;">
+	                </div>
+	                <div class="card-body">
+	        	        <p class="card-text">Emergency</p>
+	                </div>
+	            </div>
+	   
+	            <div class="card shadow text-center items" style="height: 250px;">
+	                <div class="card-img">
+	        	        <img src="{% static 'images/pharmacy.jpg' %}" style="margin-left: auto;">
+	                </div>
+	                <div class="card-body">
+	        	        <p class="card-text">Pharmacy</p>
+	                </div>
+	            </div>
+
+	            <div class="card shadow text-center items"style="height: 250px;">
+	                <div class="card-img">
+	        	        <img src="{% static 'images/endo.jpg' %}" style="margin-left: auto;">
+	                </div>
+	                <div class="card-body">
+	        	        <p class="card-text">Endoscopy</p>
+	                </div>
+	            </div>
+	   
+	            <div class="card shadow text-center items" style="height: 250px;">
+	                <div class="card-img">
+	        	        <img src="{% static 'images/56.jpg' %}" style="margin-left: auto;">
+	                </div>
+	                <div class="card-body">
+	        	        <p class="card-text">ECHO Services</p>
+	                </div>
+	            </div>   
+	        </div>
+
+
+            <div class="col-md-11">
+	            <h2 class="text-center text-primary">Our Team of Experts</h2>
+            </div>
+            <div class="carousel inner">
+	            <img src=" " style="max-width: 100%;">
+            </div>
+
+
+
+            <div class="container" id="doctor">
+	            <div class="row">
+		            <div class="col-md-11">
+			            <h4 class="text-center text-primary">Meet Our Team</h4>
+			            <h5 class="text-center"><i>Specialist Doctors</i></h5>
+		            </div>
+	            </div>
+		
+	            <div class="row owl carousel owl_theme">
+                    <div class="card shadow text-center items" style="height: 100px;">
+	                    <div class="card-body profile-card">
+		                    <img class="img-thumbnail rounded-circle border-0" src="{% static 'images/person.png' %}">
+		                    <h4 class="card-title" style="font-size: 18px;">Dr. Harish </h4>
+		                    <h6 class="card-subtitle">Senior Consultant Surgeon</h6>
+		                    <p class="card-text">MBBS, MS(TU), FMAS, DMAS (WLH)</p>
+		                    <a href="#" class="card-link"><i class="fa fa-facebook"></i></a>
+		                    <a href="#" class="card-link"><i class="fa fa-instagram"></i></a>
+		                    <a href="#" class="card-link"><i class="fa fa-linkedin"></i></a>
+	                    </div>
+                    </div>
+
+                    <div class="card shadow text-center items" style="height: 100px;">
+	                    <div class="card-body profile-card">
+		                    <img class="img-thumbnail rounded-circle border-0" src="{% static 'images/ladies1.png' %}">
+		                    <h4 class="card-title" style="font-size: 18px;">Dr. Kavitha </h4>
+		                    <h6 class="card-subtitle">Gynecologist And Obestetrician</h6>
+		                    <p class="card-text">MBBS, MD (NMC)</p>
+		                    <a href="#" class="card-link"><i class="fa fa-facebook"></i></a>
+		                    <a href="#" class="card-link"><i class="fa fa-instagram"></i></a>
+		                    <a href="#" class="card-link"><i class="fa fa-linkedin"></i></a>
+	                    </div>
+                    </div>
+            
+                    <div class="card shadow text-center items"style="height: 100px;">
+	                    <div class="card-body profile-card">
+		                    <img class="img-thumbnail rounded-circle border-0" src="{% static 'images/person.png' %}">
+		                    <h4 class="card-title" style="font-size: 18px;">Dr. Suresh </h4>
+		                    <h6 class="card-subtitle">Orthopedic Surgeon</h6>
+		                    <p class="card-text">MBBS, MS Orthopedic</p>
+		                    <a href="#" class="card-link"><i class="fa fa-facebook"></i></a>
+		                    <a href="#" class="card-link"><i class="fa fa-instagram"></i></a>
+		                    <a href="#" class="card-link"><i class="fa fa-linkedin"></i></a>
+	                    </div>
+                    </div>
+            
+                    <div class="card shadow text-center items" style="height: 100px;">
+	                     <div class="card-body profile-card">
+		                     <img class="img-thumbnail rounded-circle border-0" src="{% static 'images/ladies1.png' %}">
+		                     <h4 class="card-title" style="font-size: 18px;">Dr. Geetha</h4>
+		                     <h6 class="card-subtitle">Consultant Physician</h6>
+		                     <p class="card-text">MBBS, MD (Internal Medician)</p>
+		                     <a href="#" class="card-link"><i class="fa fa-facebook"></i></a>
+		                     <a href="#" class="card-link"><i class="fa fa-instagram"></i></a>
+		                     <a href="#" class="card-link"><i class="fa fa-linkedin"></i></a>
+	                    </div>
+                    </div>
+                </div>
+            </div>
+            {% endblock content %} 
+            {% include 'footer.html' %}

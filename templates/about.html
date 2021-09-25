@@ -1,0 +1,41 @@
+{% include 'base.html' %}
+{% include 'navigation.html' %}
+
+{% block content %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Responsive About Us Page</title>
+</head>
+<body>
+	<section>
+        <div class="about-us">
+	        <h1 class="text-center">ABOUT US</h1>
+	        <div class="wrapper">
+		        <div class="content">
+			        <h2 class="text-center"><i>Hospital Management<br>System</i></h2>
+		            <p><i> Hospital management, maintaining patient’s as well as hospital related data is quite crucial job. Information management system is the very promising solution to it. In this paper we have discuss the “HOPE” which is a web based hospital management system. It provides to manage the hospital information.</i></p>
+		            <div class="text-center" "button" >
+		            	<a href="">READ MORE</a>
+		            </div>
+				    <div class="text-center" "social">
+					    <a href=""><i class="fab fa-facebook-f"></i></a>
+					    <a href=""><i class="fab fa-twitter"></i></a>
+					    <a href=""><i class="fab fa-instagram"></i></a>
+			        </div>
+		        </div>
+		       
+	        </div>
+        </div>
+    </section>
+</body>
+</html>
+	
+
+
+{% endblock content %}
+{% include 'footer.html' %}
